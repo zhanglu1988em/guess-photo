@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A0F2231C38ADDC00928C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0F2221C38ADDC00928C39 /* main.m */; };
+		A6A0F2261C38ADDC00928C39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0F2251C38ADDC00928C39 /* AppDelegate.m */; };
+		A6A0F2291C38ADDC00928C39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0F2281C38ADDC00928C39 /* ViewController.m */; };
+		A6A0F22C1C38ADDC00928C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22A1C38ADDC00928C39 /* Main.storyboard */; };
+		A6A0F22E1C38ADDC00928C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */; };
+		A6A0F2311C38ADDC00928C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6A0F21E1C38ADDC00928C39 /* 04-疯狂猜图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-疯狂猜图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A0F2221C38ADDC00928C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A0F2241C38ADDC00928C39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6A0F2251C38ADDC00928C39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6A0F2271C38ADDC00928C39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6A0F2281C38ADDC00928C39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6A0F22B1C38ADDC00928C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A0F2301C38ADDC00928C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A0F2321C38ADDC00928C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A0F21B1C38ADDC00928C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A0F2151C38ADDC00928C39 = {
+			isa = PBXGroup;
+			children = (
+				A6A0F2201C38ADDC00928C39 /* 04-疯狂猜图 */,
+				A6A0F21F1C38ADDC00928C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A0F21F1C38ADDC00928C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0F21E1C38ADDC00928C39 /* 04-疯狂猜图.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A0F2201C38ADDC00928C39 /* 04-疯狂猜图 */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0F2241C38ADDC00928C39 /* AppDelegate.h */,
+				A6A0F2251C38ADDC00928C39 /* AppDelegate.m */,
+				A6A0F2271C38ADDC00928C39 /* ViewController.h */,
+				A6A0F2281C38ADDC00928C39 /* ViewController.m */,
+				A6A0F22A1C38ADDC00928C39 /* Main.storyboard */,
+				A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */,
+				A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */,
+				A6A0F2321C38ADDC00928C39 /* Info.plist */,
+				A6A0F2211C38ADDC00928C39 /* Supporting Files */,
+			);
+			path = "04-疯狂猜图";
+			sourceTree = "<group>";
+		};
+		A6A0F2211C38ADDC00928C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0F2221C38ADDC00928C39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A0F21D1C38ADDC00928C39 /* 04-疯狂猜图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A0F2351C38ADDC00928C39 /* Build configuration list for PBXNativeTarget "04-疯狂猜图" */;
+			buildPhases = (
+				A6A0F21A1C38ADDC00928C39 /* Sources */,
+				A6A0F21B1C38ADDC00928C39 /* Frameworks */,
+				A6A0F21C1C38ADDC00928C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-疯狂猜图";
+			productName = "04-疯狂猜图";
+			productReference = A6A0F21E1C38ADDC00928C39 /* 04-疯狂猜图.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A0F2161C38ADDC00928C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wbder;
+				TargetAttributes = {
+					A6A0F21D1C38ADDC00928C39 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A6A0F2191C38ADDC00928C39 /* Build configuration list for PBXProject "04-疯狂猜图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A0F2151C38ADDC00928C39;
+			productRefGroup = A6A0F21F1C38ADDC00928C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A0F21D1C38ADDC00928C39 /* 04-疯狂猜图 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A0F21C1C38ADDC00928C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A0F2311C38ADDC00928C39 /* LaunchScreen.storyboard in Resources */,
+				A6A0F22E1C38ADDC00928C39 /* Assets.xcassets in Resources */,
+				A6A0F22C1C38ADDC00928C39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A0F21A1C38ADDC00928C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A0F2291C38ADDC00928C39 /* ViewController.m in Sources */,
+				A6A0F2261C38ADDC00928C39 /* AppDelegate.m in Sources */,
+				A6A0F2231C38ADDC00928C39 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A0F22A1C38ADDC00928C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A0F22B1C38ADDC00928C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A0F2301C38ADDC00928C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A0F2331C38ADDC00928C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6A0F2341C38ADDC00928C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A0F2361C38ADDC00928C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-疯狂猜图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techbridge-inc.com.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A0F2371C38ADDC00928C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-疯狂猜图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "techbridge-inc.com.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A0F2191C38ADDC00928C39 /* Build configuration list for PBXProject "04-疯狂猜图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A0F2331C38ADDC00928C39 /* Debug */,
+				A6A0F2341C38ADDC00928C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A0F2351C38ADDC00928C39 /* Build configuration list for PBXNativeTarget "04-疯狂猜图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A0F2361C38ADDC00928C39 /* Debug */,
+				A6A0F2371C38ADDC00928C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A0F2161C38ADDC00928C39 /* Project object */;
+}
