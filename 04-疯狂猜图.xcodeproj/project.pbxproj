@@ -13,6 +13,8 @@
 		A6A0F22C1C38ADDC00928C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22A1C38ADDC00928C39 /* Main.storyboard */; };
 		A6A0F22E1C38ADDC00928C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */; };
 		A6A0F2311C38ADDC00928C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */; };
+		A6A0F2391C38AF0500928C39 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6A0F2381C38AF0500928C39 /* questions.plist */; };
+		A6A0F23C1C38AFCF00928C39 /* QuestionsMode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0F23B1C38AFCF00928C39 /* QuestionsMode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A0F2301C38ADDC00928C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6A0F2321C38ADDC00928C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A0F2381C38AF0500928C39 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		A6A0F23A1C38AFCF00928C39 /* QuestionsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsMode.h; sourceTree = "<group>"; };
+		A6A0F23B1C38AFCF00928C39 /* QuestionsMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsMode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +67,9 @@
 				A6A0F2251C38ADDC00928C39 /* AppDelegate.m */,
 				A6A0F2271C38ADDC00928C39 /* ViewController.h */,
 				A6A0F2281C38ADDC00928C39 /* ViewController.m */,
-				A6A0F22A1C38ADDC00928C39 /* Main.storyboard */,
+				A6A0F23A1C38AFCF00928C39 /* QuestionsMode.h */,
+				A6A0F23B1C38AFCF00928C39 /* QuestionsMode.m */,
 				A6A0F22D1C38ADDC00928C39 /* Assets.xcassets */,
-				A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */,
-				A6A0F2321C38ADDC00928C39 /* Info.plist */,
 				A6A0F2211C38ADDC00928C39 /* Supporting Files */,
 			);
 			path = "04-疯狂猜图";
@@ -74,6 +78,10 @@
 		A6A0F2211C38ADDC00928C39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6A0F22F1C38ADDC00928C39 /* LaunchScreen.storyboard */,
+				A6A0F2321C38ADDC00928C39 /* Info.plist */,
+				A6A0F2381C38AF0500928C39 /* questions.plist */,
+				A6A0F22A1C38ADDC00928C39 /* Main.storyboard */,
 				A6A0F2221C38ADDC00928C39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A0F2391C38AF0500928C39 /* questions.plist in Resources */,
 				A6A0F2311C38ADDC00928C39 /* LaunchScreen.storyboard in Resources */,
 				A6A0F22E1C38ADDC00928C39 /* Assets.xcassets in Resources */,
 				A6A0F22C1C38ADDC00928C39 /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			files = (
 				A6A0F2291C38ADDC00928C39 /* ViewController.m in Sources */,
 				A6A0F2261C38ADDC00928C39 /* AppDelegate.m in Sources */,
+				A6A0F23C1C38AFCF00928C39 /* QuestionsMode.m in Sources */,
 				A6A0F2231C38ADDC00928C39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
